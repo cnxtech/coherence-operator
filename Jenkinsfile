@@ -221,7 +221,7 @@ pipeline {
                     steps {
                         sh '''
                             export http_proxy=$HTTP_PROXY
-                            export RELEASE_IMAGE_PREFIX=$(eval echo $TEST_IMAGE_PREFIX)
+                            export RELEASE_IMAGE_PREFIX=`eval echo $TEST_IMAGE_PREFIX`
                             make build
                         '''
                     }
@@ -234,7 +234,7 @@ pipeline {
                 stage('push-operator') {
                     steps {
                         export http_proxy=$HTTP_PROXY
-                        export RELEASE_IMAGE_PREFIX=$(eval echo $TEST_IMAGE_PREFIX)
+                        export RELEASE_IMAGE_PREFIX=`eval echo $TEST_IMAGE_PREFIX`
                         make push
                     }
                 }
