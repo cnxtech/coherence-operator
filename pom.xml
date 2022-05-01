@@ -51,7 +51,7 @@
     <javax.activation.version>1.2.0</javax.activation.version>
     <javax.xml.bind.version>2.3.0</javax.xml.bind.version>
     <jersey.version>2.25</jersey.version>
-    <kubernetes.client.java.version>3.0.0</kubernetes.client.java.version>
+    <kubernetes.client.java.version>11.0.1</kubernetes.client.java.version>
     <maven.assembly.plugin.version>3.1.1</maven.assembly.plugin.version>
     <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
     <maven.dependency.plugin.version>3.1.1</maven.dependency.plugin.version>
