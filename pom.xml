@@ -39,7 +39,7 @@
 
     <!-- library dependency versions -->
     <bedrock.version>5.0.11</bedrock.version>
-    <commons.compress.version>1.18</commons.compress.version>
+    <commons.compress.version>1.21</commons.compress.version>
     <commonjava.directory.version>0.3.1</commonjava.directory.version>
     <glassfish.copyright.version>2.1</glassfish.copyright.version>
     <glassfish.jmxmp.version>1.0-b01-ea</glassfish.jmxmp.version>
